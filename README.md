@@ -10,4 +10,5 @@ Email
 Teléfono
 Password
 Confirmar password
+
 Realizar solo el maquetado utilizando react js y JSX, no se deben guardar los usuarios ni realizar lógica de validación de los mismos.
