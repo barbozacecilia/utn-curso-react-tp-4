@@ -48,13 +48,13 @@ class RegistrationForm extends Component {
                         </div>
                         <div className="inputContainer">
                             <label>
-                                {this.state.language ===  T.ES ? T.ES.PHONE_NUMBER : T.EN.PHONE_NUMBER}
+                                {this.state.language ===  T.ES ? T.ES.EMAIL : T.EN.EMAIL}
                             </label>
                             <input/>
                         </div>
                         <div className="inputContainer">
                             <label>
-                                {this.state.language ===  T.ES ? T.ES.EMAIL : T.EN.EMAIL}
+                                {this.state.language ===  T.ES ? T.ES.PHONE_NUMBER : T.EN.PHONE_NUMBER}
                             </label>
                             <input/>
                         </div>
