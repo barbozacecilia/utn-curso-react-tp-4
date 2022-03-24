@@ -1,3 +1,13 @@
+body {
+  background-color: #e5d2c1;
+  font-family: "Trebuchet MS",sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  display: flex;
+  -webkit-justify-content: center;
+
+}
+
 .App {
   text-align: center;
 }
@@ -25,7 +35,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #585058;
 }
 
 @keyframes App-logo-spin {

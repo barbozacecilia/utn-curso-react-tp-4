@@ -21,9 +21,16 @@ class RegistrationForm extends Component {
         return (
             <>
                 <div className="mainContainer">
-                <div className="leftSide">{this.state.language ===  T.EN ? T.ES.BIENVENIDA : T.EN.WELCOME}</div>
-                    <h1>{this.state.title}</h1>
-                    <button onClick={this.handleClick}>{this.state.language ===  T.ES ? T.ES.BUTTON : T.EN.BUTTON} </button>
+                    <hr className="hrTop"/>
+                    <div className="translateButtonContainer">
+                        <button onClick={this.handleClick} className="translateButton">{this.state.language ===  T.ES ? T.ES.BUTTON : T.EN.BUTTON} </button>
+                    </div>
+                <div className="welcomeContainer">{this.state.language ===  T.ES ? T.ES.WELCOME : T.EN.WELCOME}</div>
+                    <hr className="hrTop"/>
+                    <h1 className="titleSignUp">
+                        {this.state.language === T.ES ? T.ES.TITLE : T.EN.TITLE}
+                    </h1>
+
                     <div className="formContainer">
                     <form >
                         <div className="inputContainer">
@@ -62,9 +69,14 @@ class RegistrationForm extends Component {
                                 {this.state.language ===  T.ES ? T.ES.CONFIRM_PASSWORD : T.EN.CONFIRM_PASSWORD}
                             </label>
                             <input/>
+
+                        </div>
+                        <div className="buttonSignUpContainer">
+                            <button className="buttonSignUp">{this.state.language === T.ES ? T.ES.BUTTON_SIGN_UP :T.EN.BUTTON_SIGN_UP}</button>
                         </div>
                     </form>
                 </div>
+                    <hr/>
                 </div>
             </>
         )
