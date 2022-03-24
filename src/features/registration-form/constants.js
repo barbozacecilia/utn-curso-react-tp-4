@@ -11,6 +11,7 @@ export const T = {
       PASSWORD: 'Contraseña',
       CONFIRM_PASSWORD: 'Confirma la contraseña',
       BUTTON_SIGN_UP: 'Crea tu cuenta',
+      ALERT: '¡Usuario Creado!',
     },
 
    EN: {
@@ -24,6 +25,7 @@ export const T = {
         PASSWORD:'Password',
         CONFIRM_PASSWORD :'Confirm password',
        BUTTON_SIGN_UP: 'Create your account',
-    }
+       ALERT: 'User Created!',
+   }
 };
 

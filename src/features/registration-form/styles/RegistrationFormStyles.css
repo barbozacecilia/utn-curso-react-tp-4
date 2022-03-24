@@ -11,7 +11,16 @@
     border-left: none;
     border-right: none;
     width: 80%;
-
+}
+.hrTitle {
+    border-top: 1px solid #44331d;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .secondContainer{
     display: flex;
@@ -89,7 +98,10 @@ input:hover {
 
 }
 label {
+    display: flex;
     line-height: 30px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .buttonSignUp:hover{
